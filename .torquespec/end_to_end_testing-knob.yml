@@ -1,0 +1,22 @@
+---
+application:
+  root: "/home/pyotr/Work/calavista/samples/try"
+services:
+  TorqueSpec::Daemon:
+    argv:
+    - "./spec/ai/search_spec.rb"
+    - "./spec/controllers/posts_controller_spec.rb"
+    - "./spec/helpers/posts_helper_spec.rb"
+    - "./spec/models/post_spec.rb"
+    - "./spec/requests/posts_spec.rb"
+    - "./spec/routing/posts_routing_spec.rb"
+    - "./spec/views/posts/edit.html.erb_spec.rb"
+    - "./spec/views/posts/index.html.erb_spec.rb"
+    - "./spec/views/posts/new.html.erb_spec.rb"
+    - "./spec/views/posts/show.html.erb_spec.rb"
+    pwd: "/home/pyotr/Work/calavista/samples/try"
+    spec_dir:
+environment:
+  RUBYLIB: "/home/pyotr/.rvm/gems/jruby-1.7.2/gems/torquespec-0.6.0/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-core-2.12.2/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-2.13.0/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-mocks-2.12.2/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-2.12.0/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-core-2.13.1/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-expectations-2.12.1/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-rails-2.12.2/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/guard-rspec-2.2.2/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-mocks-2.13.1/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/rspec-expectations-2.13.0/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/diff-lcs-1.2.3/lib:/home/pyotr/.rvm/gems/jruby-1.7.2/gems/diff-lcs-1.1.3/lib"
+ruby:
+  version: '1.9'

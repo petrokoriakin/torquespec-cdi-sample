@@ -1,0 +1,4 @@
+com.softserve:Sample:jar:0.0.1-SNAPSHOT
+commons-lang:commons-lang:jar:2.6
+org.slf4j:slf4j-api:jar:1.7.2
+org.slf4j:slf4j-jdk14:jar:1.7.2
