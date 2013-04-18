@@ -4,7 +4,7 @@ class PostsController < ApplicationController
 
   def index
     posts = Post.all
-    sorter = fetch_cdi(com.softserve.sample.Sorter)
+    sorter = fetch(com.softserve.sample.Sorter)
     sorted_posts = sorter.sort posts.to_json
     @posts = JSON.parse sorted_posts
 

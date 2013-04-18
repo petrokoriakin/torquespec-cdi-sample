@@ -4,3 +4,6 @@
 # for all configuration options.
 web:
   context: "/"
+
+injection:
+  enabled: true

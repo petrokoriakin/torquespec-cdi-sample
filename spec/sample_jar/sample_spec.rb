@@ -7,7 +7,7 @@ describe "end-to-end testing" do
   # Deploy our apps
   app = <<-END.gsub(/^ {4}/,'')
     application:
-      root: "/home/pyotr/Work/calavista/samples/try"
+      root: "/home/pyotr/Work/calavista/samples/torquespec-cdi-sample"
   END
 
   deploy(app)
